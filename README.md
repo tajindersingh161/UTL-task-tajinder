@@ -24,6 +24,8 @@ CREATE TABLE books (
 
 **Python Script**
 ----------------------------------------------------------------------------------------------------------------------------------
+
+```python
 import pandas as pd
 import mysql.connector
 

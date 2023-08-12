@@ -1,6 +1,6 @@
 # UTL-task-tajinder
 
-Please see screenshots [here](https://github.com/tajindersingh161/UTL-task-tajinder/blob/69ec1cf40dc78640074afba63dd2e4f973b4e4e3/Output%20Screenshots-%20Interactive%20Book%20Search%20Part1-2%20plus%20documentation.pdf)
+### Please see the output screenshots of part 1 and 2 tasks [here](https://github.com/tajindersingh161/UTL-task-tajinder/blob/69ec1cf40dc78640074afba63dd2e4f973b4e4e3/Output%20Screenshots-%20Interactive%20Book%20Search%20Part1-2%20plus%20documentation.pdf)
 
 ### Part-1: Database Setup
 
@@ -26,9 +26,9 @@ CREATE TABLE books (
 ### Part-2: Data Injection and SQL Queries
 
 ##### Option 1	
-Wrote the below python script to import the data from the CSV file to the “books” table on the local server. The name of my local script is “script_new.py” and I installed python to run this script. 
-    Note: If you want to run the below script in python you have to change the csv_file_path “H:\\books.csv” according to your system. Also update “user” and       
-    “password” according to your localhost.
+I crafted a Python script for the purpose of importing data from a CSV file into the 'books' table on my local server. This script is named 'script_new.py', and I have installed Python to execute it.
+
+Please take note: If you intend to execute the script on your Python environment, you will need to adjust the 'csv_file_path' variable to match the path of your 'books.csv' file on your system. Additionally, remember to update the 'user' and 'password' parameters to align with the credentials of your localhost.
 
 ```python
 import pandas as pd

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Book Search App</title>
+</head>
+<body>
+    <header>
+        <h1>Book Search App</h1>
+    </header>
+    <main>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search by title, author, or ISBN">
+            <button id="searchButton">Search</button>
+        </div>
+        <div id="beanSearchResult"> By default I am showing the search results for ISBN "9780544003415"</div>
+        <div id="resultsContainer"></div>
+        
+        <div id="loader" class="loader"></div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
